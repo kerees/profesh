@@ -85,9 +85,21 @@ body, html {
 	display: inline;
 	text-align: right;
 
+
 }
  .footer img {
 	height: 45px;
 	padding-bottom: 10px;
 }
+
+.footer p {
+	font-size: 9px;
+}
+
+
+
+.banner { position: relative; overflow: auto;
+height: 300px; }
+    .banner li { list-style: none; }
+        .banner ul li { float: left; }
 
