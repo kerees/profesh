@@ -1,0 +1,92 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body, html {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  height: 100%;
+  width: 100%;
+}
+
+.header container {
+	text-align: center;
+}
+
+.menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.menu li a {
+  color: #000;
+
+}
+.header h1 {
+	display: inline;
+  line-height: 100px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 100px;
+  height: 100px;
+  margin: 0 20px 0 0;
+
+}
+
+.menu li  {
+  display: inline;
+  line-height: 100px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 100px;
+  height: 100px;
+  margin: 0 20px 0 0;
+}
+
+.jumbotron {
+	background: url(https://unsplash.imgix.net/1/macbook-air-all-faded-and-stuff.jpg?q=75&fm=jpg&s=52cb272e90a3b5e36104066cc9993d83) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+
+
+.main h2 {
+	color: white;
+	font-weight: 300;
+	font-size: 45px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+/*.highlight {
+	background-color: gray;
+}*/
+
+/*.feature {
+	text-decoration: underline; 
+}
+*/
+
+.main .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-weight: 200;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display:block; /* change this from inline-block */
+    width:20%; /* setting the width */
+    margin:0 auto; /* this will center  it */
+    position:relative;
+	}
+
+.footer li {
+	display: inline;
+	text-align: right;
+
+}
+ .footer img {
+	height: 45px;
+	padding-bottom: 10px;
+}
+
