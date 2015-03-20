@@ -96,21 +96,41 @@ body, html {
 	font-size: 9px;
 }
 
+.banner { position: relative; overflow: auto; }
 
 
-.banner { position: relative; overflow: auto;
-height: 300px; }
-    .banner li { list-style: none; }
-        .banner ul li { float: left; }
+    .banner li { list-style: none;}
+        .banner ul li { float: left; 
+  }
+        .banner ul {padding-left: 0; width: 100%;}
 
 
 
 
-.contact li {
-  display: inline;
-  padding-right: 10px;
+
+.contact .col-md-2 img {
+  display: block;
+  height: 80px;
+  margin: 0 auto 70px;
+  text-indent: -9999px;
+  width: 80px;
+  margin-top: 50px;
 }
 
-.contact img{
-  height: 80px;
+.contact h3 {
+  text-align: left ;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+
+.bio img{
+  height: 400px;
+  padding-left: 100px;
+}
+
+.bio p{
+  text-align: center;
+  padding-bottom: 30px;
+
 }
