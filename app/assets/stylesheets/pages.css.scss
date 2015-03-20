@@ -69,7 +69,8 @@ body, html {
 */
 
 .main .btn {
-  background-color: #1c1c1c;
+/*  background-color: #1c1c1c;
+*/  border-color: white;
   color: #fff;
   font-weight: 200;
   font-size: 18px;
@@ -102,10 +103,12 @@ body, html {
     .banner li { list-style: none;}
         .banner ul li { float: left; 
   }
-        .banner ul {padding-left: 0; width: 100%;}
+        .banner ul {padding-left: 0; }
 
 
-
+.bio li {
+  display: inline;
+}
 
 
 .contact .col-md-2 img {

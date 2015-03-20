@@ -1,15 +1,20 @@
     <div class="banner"> 
       <ul>
-                  
-        <li><%= image_tag("papercrop.png") %>
-        </li>
+                          <li><%= image_tag("magazine.jpg") %></li>
+
 
         <li><%= image_tag("editing.jpg") %></li>
-        <li><%= image_tag("papercrop1.png") %></li>
 
-      
+              <li><%= image_tag("papercrop2.png") %></li>
+
     </ul>
 </div>
+<script>
+
+$(function() {
+    $('.banner').unslider();
+});
+</script>
 
 
     
@@ -37,12 +42,7 @@
 
 
 
-<script>
 
-$(function() {
-    $('.banner').unslider();
-});
-</script>
 
 <script src="//code.jquery.com/jquery-latest.min.js"></script>
 <script src="//unslider.com/unslider.min.js"></script>
