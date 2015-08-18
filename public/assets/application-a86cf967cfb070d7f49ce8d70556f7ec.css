@@ -1,0 +1,205 @@
+/* line 5, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+body, html {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  height: 100%;
+  width: 100%;
+}
+
+/*Header*/
+/* line 14, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.header container {
+  text-align: center;
+}
+
+/* line 18, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 23, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.menu li a {
+  color: #000;
+}
+
+/* line 27, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.header h1 {
+  display: inline;
+  line-height: 100px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 100px;
+  height: 100px;
+  margin: 0 20px 0 0;
+}
+
+/* line 38, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.menu li {
+  display: inline;
+  line-height: 100px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 100px;
+  height: 100px;
+  margin: 0 20px 0 0;
+}
+
+/*Welcome*/
+/* line 49, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.jumbotron {
+  background: url(https://unsplash.imgix.net/1/macbook-air-all-faded-and-stuff.jpg?q=75&fm=jpg&s=52cb272e90a3b5e36104066cc9993d83) no-repeat center center;
+  background-size: cover;
+  height: 500px;
+}
+
+/* line 56, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.main h2 {
+  color: white;
+  font-weight: 300;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px black;
+}
+
+/*.highlight {
+	background-color: gray;
+}*/
+/*.feature {
+	text-decoration: underline; 
+}
+*/
+/* line 74, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.main .btn {
+  /*  background-color: #1c1c1c;
+  */
+  border-color: white;
+  color: #fff;
+  font-weight: 200;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: block;
+  /* change this from inline-block */
+  width: 20%;
+  /* setting the width */
+  margin: 0 auto;
+  /* this will center  it */
+  position: relative;
+}
+
+/*Footer*/
+/* line 90, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.footer li {
+  display: inline;
+  text-align: right;
+}
+
+/* line 96, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.footer img {
+  height: 45px;
+  padding-bottom: 10px;
+}
+
+/* line 101, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.footer p {
+  font-size: 9px;
+}
+
+/*Portfolio*/
+/* line 107, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.banner {
+  position: relative;
+  overflow: auto;
+}
+
+/* line 110, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.banner li {
+  list-style: none;
+}
+
+/* line 111, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.banner ul li {
+  float: left;
+}
+
+/* line 113, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.banner ul {
+  padding-left: 0;
+}
+
+/* line 116, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.supporting h2 {
+  font-weight: 100;
+}
+
+/* line 120, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.supporting h1 {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+/* line 125, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.supporting .row {
+  padding-bottom: 30px;
+}
+
+/*Contact*/
+/* line 131, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.contact .col-md-2 img {
+  display: block;
+  height: 80px;
+  margin: 0 auto 70px;
+  text-indent: -9999px;
+  width: 80px;
+  margin-top: 50px;
+}
+
+/* line 140, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.contact h3 {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+/*About*/
+/* line 149, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.col-md-6 img {
+  height: 400px;
+  margin-bottom: 30px;
+  margin-right: 40px;
+  border-radius: 25px;
+  float: right;
+}
+
+/* line 157, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.col-md-6 p {
+  text-align: justify;
+  padding-bottom: 10px;
+  margin-right: 60px;
+}
+
+/* line 164, /Users/Katie/Desktop/portfolio/app/assets/stylesheets/pages.css.scss */
+.col-md-6 h3 {
+  font-size: 30px;
+  text-align: justify;
+  padding-bottom: 10px;
+  font-weight: 200;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
